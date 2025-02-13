@@ -12,8 +12,9 @@
 
 * B-Tree is a **self-balancing tree**, just like Binary Search Tree, but with the benefit of having more than 2 children per node
 * It is a much more flexible data structure
+* The root and intermediate level nodes contain *index rows*
+* Each *Index Row* contains a key-value, in our case, student_id and a pointer to an intermediate level of the B-Tree or a Data Page Node
 * Refer to [B-tree (GFG)](https://www.geeksforgeeks.org/introduction-of-b-tree-2/) OR [B-Tree (Wiki)](https://en.wikipedia.org/wiki/B-tree)
-
 
 ### Data Pages
 
